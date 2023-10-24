@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background: #0b0423;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#left, #right {
+    width: 350px;
+    min-height: 450px;
+    margin: 20px;
+    border: 3px dashed #7e7878;
+}
+
+.list {
+    background-color: #f21377;
+    height: 65px;
+    margin: 30px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    cursor: grab;
+}
+
+.list i {
+    font-size: 20px;
+    margin: 10px;
+}
+
+.list p {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-left: 5px;
+}
